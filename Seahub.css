@@ -1,0 +1,202 @@
+body {
+    margin:0;
+}
+
+.left-side, .right-side ,.profile {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Left side */
+
+.left-side {
+    width: 30% ;
+}
+
+header {
+    background-color: rgb(51, 209, 183);
+    color: white;
+    padding:20px;
+    
+    
+}
+.seahub-logo, .seahub-logo-text {
+  
+    display:inline-block;
+    color: white;
+    font-size: 25px;
+
+    
+}
+
+
+.logo {
+    border-radius: 50px;
+    margin-bottom: -20px;
+}
+/* left Chat */
+
+.chat {
+    margin: 0 20px ;
+
+}
+.search {
+    border: solid 2px rgb(223, 223, 223);
+    border-radius: 7px;
+    padding: 10px 15px ;
+    color: grey;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+/* Contacts */
+
+.contact-name, .chat-time {
+    display: inline-block;
+}
+
+.chat-time {
+    float: right;
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+}
+.contact-bottom-line {
+    color: rgb(141, 141, 141);
+    margin: 5px;
+    font-size: 15px;
+}
+
+/*  Footer New Chat */
+
+.new-chat {
+    background-color: rgb(84, 175, 160);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px 0 20px 0;
+}
+
+
+
+
+
+/* Right side */
+/* Right side */
+
+.menu-header {
+    
+    background-color:rgb(84, 175, 160) ;
+    color: white;
+    padding:1px  0 49px 0 ;
+    height: 31px;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+.right-side{
+    margin-left:  -4px  ;
+    width: 70% ;  
+    
+    
+}
+
+ul {
+    padding-right: 100px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    
+    
+    
+}
+
+.profile {
+    float: right;
+    margin: -60px 10px;
+}
+.profile-logo {
+    margin-bottom: -15px;
+    border-radius: 50px;
+}
+
+
+/* active chat */
+
+
+
+.active-chat {
+    padding: 10px;
+    margin-bottom: -20px;
+    background-color: rgb(218, 218, 218);
+    text-align: right; /* Ulan */
+}
+
+
+.chat-messege {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid red;
+
+}
+
+.right-chat-frame {
+    /* text-align: right;  */
+}
+.left-chat-frame {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.right-chat {
+   /*  text-align: right; */
+    padding: 20px;
+      
+    }
+    
+ .left-chat {
+    text-align: left;
+     max-width: 65%;
+     border: 1px solid blue;
+     margin: 20px 0;
+ }
+.active-chat-time {
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+    font-style: italic;
+    border: 1px solid orange;
+    text-align: right;
+
+}
+
+.chat-icon {
+    border-radius: 50%;
+}
+
+
+/* right footer */
+
+.active-chat-footer {
+    background-color: rgb(255, 255, 255);
+    margin: 0 20px 40px 20px;
+    padding: 7px;
+}
+.new-messege-line {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.new-messege {
+    border: 1px grey solid ;
+    padding: 10px ;
+    width: 60%;
+    margin-top: -20px;
+}
+
+
