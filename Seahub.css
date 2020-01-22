@@ -1,22 +1,42 @@
 body {
     margin:0;
+    padding: 0;
 }
 
 .left-side, .right-side ,.profile {
     display: inline-block;
     vertical-align: top;
+    
 }
-
+.right-side {
+    margin-left: 30%;
+    background-color: rgb(218, 218, 218);
+    position: relative;
+}
 /* Left side */
 
 .left-side {
     width: 30% ;
+}
+.chat-wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* position: relative; */
+}
+.active-chat-wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* position: relative; */
 }
 
 header {
     background-color: rgb(51, 209, 183);
     color: white;
     padding:20px;
+    position: fixed;
+    width: 100%;
     
     
 }
@@ -37,7 +57,9 @@ header {
 /* left Chat */
 
 .chat {
-    margin: 0 20px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
 
 }
 .search {
@@ -75,11 +97,10 @@ header {
     padding: 10px;
     text-align: center;
     color: white;
-    margin: 10px 0 20px 0;
+    bottom: 0px;
+    width: 28%;
+    position: fixed;
 }
-
-
-
 
 
 /* Right side */
@@ -93,7 +114,9 @@ header {
     height: 31px;
     font-size: 16px;
     text-align: center;
-
+    position: fixed;
+    width: 70%;
+    z-index: 9999;
 
 }
 .right-side {
@@ -132,7 +155,7 @@ li {
 
 .active-chat {
     padding: 10px;
-    /*margin-bottom: -20px;*/
+    margin-top: 80px;
     background-color: rgb(218, 218, 218);
 }
 
@@ -152,8 +175,7 @@ li {
 .left-chat-frame {
     display: inline-block;
 }
-
-    
+ 
 .active-chat-time {
     color: rgb(141, 141, 141);
     font-size: 12px;
@@ -171,20 +193,27 @@ li {
 
 .active-chat-footer {
     background-color: rgb(255, 255, 255);
-    margin: 0 20px 40px 20px;
     padding: 7px;
+    z-index: 9999;
+    bottom: 0px;
+    position: fixed;
+    margin-left: 30%;
+    left: 0;
+    right: 0;
+    height: 80px;
 }
+
 .new-messege-line {
     display: inline-block;
     margin: 10px;
 
-}
-
+} 
 .new-messege {
-    border: 1px grey solid ;
+    border: 1px lightgrey solid ;
     padding: 10px ;
-    width: 60%;
-    margin-top: -20px;
+    width: 65%;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 
