@@ -1,9 +1,10 @@
 # seahub
 seahub chat
 
- git add .
- git commit -m"message"
- git push origin master
+> commands
+ - git add .
+ - git commit -m"message"
+ - git push origin master
 
-optional:
- git status --> to check status
+> optional:
+  - git status --> to check status
