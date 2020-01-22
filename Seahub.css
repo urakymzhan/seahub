@@ -96,7 +96,7 @@ header {
 
 
 }
-.right-side{
+.right-side {
     margin-left:  -4px  ;
     width: 70% ;  
     
@@ -132,51 +132,39 @@ li {
 
 .active-chat {
     padding: 10px;
-    margin-bottom: -20px;
+    /*margin-bottom: -20px;*/
     background-color: rgb(218, 218, 218);
-    text-align: right; /* Ulan */
 }
 
-
-.chat-messege {
-    display: inline-block;
-    text-align: left;
-    border: 1px solid red;
-
-}
-
-.right-chat-frame {
-    /* text-align: right;  */
-}
-.left-chat-frame {
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
-}
 .right-chat {
-   /*  text-align: right; */
-    padding: 20px;
-      
-    }
-    
- .left-chat {
-    text-align: left;
-     max-width: 65%;
-     border: 1px solid blue;
-     margin: 20px 0;
+      text-align: right;
+}
+.right-chat-frame { 
+    display: inline-block;
+}
+.chat-messege {
+
+}
+
+.left-chat {
+
  }
+.left-chat-frame {
+    display: inline-block;
+}
+
+    
 .active-chat-time {
     color: rgb(141, 141, 141);
     font-size: 12px;
     font-style: italic;
-    border: 1px solid orange;
     text-align: right;
-
 }
 
 .chat-icon {
     border-radius: 50%;
 }
+
 
 
 /* right footer */
