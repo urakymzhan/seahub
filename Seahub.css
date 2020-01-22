@@ -45,7 +45,6 @@ header {
     display:inline-block;
     color: white;
     font-size: 25px;
-
     
 }
 
@@ -53,9 +52,10 @@ header {
 .logo {
     border-radius: 50px;
     margin-bottom: -20px;
+    margin-right: 5px;
 }
-/* left Chat */
 
+/* left Chat */
 .chat {
     margin-left: 20px;
     margin-right: 20px;
@@ -94,11 +94,13 @@ header {
 .new-chat {
     background-color: rgb(84, 175, 160);
     border-radius: 5px;
-    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 60px;
     text-align: center;
     color: white;
     bottom: 0px;
-    width: 28%;
+    width: 30%;
     position: fixed;
 }
 
@@ -187,20 +189,25 @@ li {
     border-radius: 50%;
 }
 
-
-
 /* right footer */
+.active-chat-footer-wrapper {
 
+    background-color: rgb(218, 218, 218);
+    /*border: 1px solid black;*/
+    width: 67%;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0px;
+    padding: 9px 20px;
+}
 .active-chat-footer {
     background-color: rgb(255, 255, 255);
     padding: 7px;
-    z-index: 9999;
-    bottom: 0px;
-    position: fixed;
-    margin-left: 30%;
-    left: 0;
-    right: 0;
-    height: 80px;
+/*    left: 0;
+    right: 0;*/
+    /*height: 80px;*/
+    /*box-sizing: border-box;*/
+    border-radius: 5px;
 }
 
 .new-messege-line {
@@ -209,7 +216,7 @@ li {
 
 } 
 .new-messege {
-    border: 1px lightgrey solid ;
+    border: 1px lightgrey solid;
     padding: 10px ;
     width: 65%;
     border-radius: 5px;
